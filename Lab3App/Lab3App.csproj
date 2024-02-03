@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Lab3App.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,10 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Axe.cs" />
-    <Compile Include="Coin.cs" />
-    <Compile Include="Collectable.cs" />
-    <Compile Include="CollectionBoard.cs" />
     <Compile Include="Diamond.cs" />
+    <Compile Include="CollectionBoard.cs" />
+    <Compile Include="Collectable.cs" />
+    <Compile Include="Coin.cs" />
     <Compile Include="Displayable.cs" />
     <Compile Include="MagicWand.cs" />
     <Compile Include="Program.cs" />
